@@ -1,8 +1,24 @@
 import React from 'react'
 
+import { webdText } from '../../data/webd'
+import { Link } from 'react-router-dom'
+
 const Webd = () => {
   return (
-    <div>Webd</div>
+    <section id='webd'>
+        <h2>웹디자인 기능사 준비 이걸로 끝!</h2>
+        <div className="video_inner">
+            {webdText.map((video, key) => (
+                <div className="video" key={key}>
+                    <div className="video_thum play_icon">
+                        <Link to={`/video/${video.videoId}`}>
+                           <img src={video.img} alt={video.title} /> 
+                        </Link>
+                    </div>
+                </div>
+            ))}
+        </div>
+    </section>
   )
 }
 
