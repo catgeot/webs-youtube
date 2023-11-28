@@ -13,6 +13,9 @@
     @media (max-width:800px) {
         grid-template-columns: repeat(1, 100%);        
     }
+    @media (max-width:400px) {
+        grid-template-columns: repeat(1, 100%);
+    }
     .video {
         margin-bottom: 20px;
     }
