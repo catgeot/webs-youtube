@@ -9,6 +9,8 @@ import { websiteText } from '../data/website'
 import { gsapText } from '../data/gsap'
 import { portfolioText } from '../data/portfolio'
 import { youtubeText } from '../data/youtube'
+import { developerText } from '../data/developer'
+import { todayText } from '../data/today'
 
 const Home = () => {
      return (
@@ -16,8 +18,8 @@ const Home = () => {
             title="포트폴리오" 
             description="포트폴리오에 오신것을 환영합니다."
         >
-            <Today />
-            <Developer />     
+            <Today videos={todayText} id='today' />
+            <Developer videos={developerText} title='😂추천개발자를 소개합니다.' id='developer' />     
             <VideoSlider videos={webdText} title='웹디자인 기능사 준비는 이걸로 끝!' id='webd' /> 
             <VideoSlider videos={websiteText} title='웹표준 사이트 튜토리얼 강의입니다.' id='website' /> 
             <VideoSlider videos={gsapText} title='GSAP 사이트 튜토리얼 강의입니다.' id='gsap' /> 
