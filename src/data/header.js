@@ -14,9 +14,9 @@ import { AiOutlineInstagram } from "react-icons/ai";
 
 export const headerMenus = [
     {
-        title: "웹스토리보이",
+        title: "CATGEOT",
         icon: <CiBaseball />,
-        src: "/"
+        src: "/catgeot"
     },
     {
         title: "추천 영상",
@@ -57,56 +57,61 @@ export const headerMenus = [
 
 export const searchKeyword = [
     {
-        title: "webstoryboy",
-        src: "/search/webstoryboy"
+        title: "catgeot",
+        src: "/search/catgeot"
     },
     {
-        title: "HTML",
-        src: "/search/html"
+        title: "웹디자인",
+        src: "/search/웹디자인"
     },
     {
-        title: "CSS",
-        src: "/search/css"
+        title: "타이포그래픽",
+        src: "/search/타이포그래픽"
     },
     {
-        title: "JavaScript",
-        src: "/search/javascript"
+        title: "포토샵",
+        src: "/search/포토샵"
     },
     {
-        title: "React.js",
-        src: "/search/react.js"
+        title: "시각디자인",
+        src: "/search/시각디자인"
     },
     {
-        title: "Vue.js",
-        src: "/search/vue.js"
+        title: "일러스트",
+        src: "/search/일러스트"
     },
     {
-        title: "Next.js",
-        src: "/search/next.js"
+        title: "에프터이팩트",
+        src: "/search/에프터이팩트"
     },
     {
-        title: "Node.js",
-        src: "/search/node.js"
-    },
-    {
-        title: "SQL",
-        src: "/search/sql"
-    },
-    {
-        title: "portfolio",
-        src: "/search/React Portfolio"
+        title: "파이썬",
+        src: "/search/파이썬"
     },
     {
         title: "music",
-        src: "/search/NewJeans"
+        src: "/search/music"
+    },
+    {
+        title: "암호화폐",
+        src: "/search/React 암호화폐"
+    },
+    {
+        title: "컴퓨터그래픽",
+        src: "/search/컴퓨터그래픽"
     }
 ];
 
 export const snsLink = [
     {
         title: "github",
-        url: "https://github.com/webstoryboy",
+        url: "https://github.com/catgeot",
         icon: <AiFillGithub />
+    },
+    {
+        title: "instagram",
+        url: "https://www.instagram.com/catgeot",
+        icon: <AiOutlineInstagram />
     },
     {
         title: "youtube",
@@ -117,10 +122,5 @@ export const snsLink = [
         title: "codepen",
         url: "https://codepen.io/webstoryboy",
         icon: <AiOutlineCodepen />
-    },
-    {
-        title: "instagram",
-        url: "https://www.instagram.com/webstoryboy",
-        icon: <AiOutlineInstagram />
     },
 ]

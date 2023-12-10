@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Main from './components/section/Main';
 
 const Home = lazy(() => import('./pages/Home'));
+const Catgeot = lazy(() => import('./pages/Catgeot'));
 const Today = lazy(() => import('./pages/Today'));
 const Developer = lazy(() => import('./pages/Developer'));
 const Webd = lazy(() => import('./pages/Webd'));
@@ -20,6 +21,7 @@ const App = () => {
       <Suspense fallback={<Main />}>        
         <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path='catgeot' element={<Catgeot/>} />
           <Route path='/today' element={<Today/>} />
           <Route path='/developer' element={<Developer/>} />
           <Route path='/webd' element={<Webd/>} />

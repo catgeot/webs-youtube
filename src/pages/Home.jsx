@@ -15,8 +15,8 @@ import { todayText } from '../data/today'
 const Home = () => {
      return (
         <Main 
-            title="포트폴리오" 
-            description="포트폴리오에 오신것을 환영합니다."
+            title="Catgeot" 
+            description="Catgeot Youtube에 오신것을 환영합니다."
         >
             <Today videos={todayText} id='today' />
             <Developer videos={developerText} title='😂추천개발자를 소개합니다.' id='developer' />     
