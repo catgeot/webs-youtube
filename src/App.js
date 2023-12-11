@@ -21,7 +21,7 @@ const App = () => {
       <Suspense fallback={<Main />}>        
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='catgeot' element={<Catgeot/>} />
+          <Route path='/catgeot' element={<Catgeot/>} />
           <Route path='/today' element={<Today/>} />
           <Route path='/developer' element={<Developer/>} />
           <Route path='/webd' element={<Webd/>} />

@@ -1,1 +1,0 @@
-import smart111 from "../assets/img/catgeot/smart111/smart111.jpg"
