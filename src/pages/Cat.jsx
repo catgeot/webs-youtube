@@ -11,7 +11,7 @@ const Cat = () => {
             <section id='catPage'>
                 <h2>🥵 고양이모래 상세페이지 디자인</h2>
                 {catText.map((cat, key) => (
-                    <div className="detail_inner">
+                    <div className="detail_inner" key={key}>
                         <div className="detail_img">
                             <Link to={cat.page}>
                                 <img src={cat.img} alt={cat.title} />

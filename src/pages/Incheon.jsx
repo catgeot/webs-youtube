@@ -11,7 +11,7 @@ const Incheon = () => {
             <section id='incheonPage'>
                 <h2>🤑 인천세계축전 리플렛 디자인</h2>
                 {incheonText.map((incheon, key) => (
-                    <div className="detail_inner">
+                    <div className="detail_inner" key={key}>
                         <div className="detail_img">
                             <Link to={incheon.page}>
                                 <img src={incheon.img} alt={incheon.title} />

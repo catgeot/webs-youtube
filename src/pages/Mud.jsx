@@ -11,7 +11,7 @@ const Mud = () => {
             <section id='mudPage'>
                 <h2>🤬 보령머드축제 타이포 그래픽, 현수막, 배너 디자인입니다.</h2>
                 {mudText.map((mud, key) => (
-                    <div className="detail_inner">
+                    <div className="detail_inner" key={key}>
                         <div className="detail_img">
                             <Link to={mud.page}>
                                 <img src={mud.img} alt={mud.title} />                        

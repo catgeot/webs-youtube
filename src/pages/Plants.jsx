@@ -11,7 +11,7 @@ const Plants = () => {
                 <section id='plantsPage'>
                     <h2>🌷 반려식물키우기 상세페이지 디자인</h2>
                     {plantsText.map((Plants, key) => (
-                        <div className="detail_inner">
+                        <div className="detail_inner" key={key}>
                             <div className="detail_img">
                                 <Link to={Plants.page}>
                                     <img src={Plants.img} alt={Plants.title} />

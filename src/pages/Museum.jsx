@@ -11,7 +11,7 @@ const Museum = () => {
         <section id='museumPage'>
             <h2>🥵 원주 안도타다오 뮤지엄 티켓 디자인</h2>
             {museumText.map((museum, key) => (
-                <div className="detail_inner">
+                <div className="detail_inner" key={key}>
                     <div className="detail_img">
                         <Link to={museum.page}>
                             <img src={museum.img} alt={museum.title} />
